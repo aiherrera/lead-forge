@@ -1,0 +1,1 @@
+UPDATE public.email_accounts SET smtp_password_secret = 'RESEND_API_KEY' WHERE provider = 'resend' AND smtp_password_secret LIKE 're_%';
